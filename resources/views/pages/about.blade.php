@@ -6,10 +6,10 @@
         <!-- /.page-header__bg -->
         <div class="container">
             <ul class="thm-breadcrumb list-unstyled">
-                <li><a href="{{route('home')}}">Home</a></li>
-                <li><span>About</span></li>
+                <li><a href="{{route('home')}}">@lang('navigation.home')</a></li>
+                <li><span>@lang('navigation.about')</span></li>
             </ul><!-- /.thm-breadcrumb list-unstyled -->
-            <h2>About Us</h2>
+            <h2>@lang('about.about_header')</h2>
         </div><!-- /.container -->
     </section><!-- /.page-header -->
     <section class="about-two pt-120 pb-120">
@@ -17,37 +17,33 @@
             <div class="row row-gutter-y-50">
                 <div class="col-lg-6">
                     <div class="about-two__image">
-                        <img src="assets/images/resources/about-2-1.png" alt="">
+                        <img src="{{asset('assets/images/resources/about-2-1.png')}}" alt="">
                     </div><!-- /.about-two__image -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6">
                     <div class="about-two__content">
                         <div class="block-title text-left">
-                            <p class="block-title__tagline">About Company</p><!-- /.block-title__tagline -->
-                            <h2 class="block-title__title">Get to know about our company</h2>
+                            <p class="block-title__tagline">@lang('about.company')</p><!-- /.block-title__tagline -->
+                            <h2 class="block-title__title">@lang('about.get_to_know_about_company')</h2>
                             <!-- /.block-title__title -->
                         </div><!-- /.block-title -->
-                        <p class="about-two__text">There are many variations of passages of lorem ipsum available
-                            the
-                            majority have suffered alteration in some form by injected humour. Duis aute irure dolor
-                            lipsum
-                            is simply free text available.</p><!-- /.about-two__text -->
+                        <p class="about-two__text">@lang('about.about_text')</p><!-- /.about-two__text -->
                         <ul class="list-unstyled ml-0 about-two__list">
                             <li>
                                 <i class="fa fa-arrow-circle-right"></i>
-                                Nsectetur cing elit.
+                                @lang('about.about_pointer_one')
                             </li>
                             <li>
                                 <i class="fa fa-arrow-circle-right"></i>
-                                Suspe ndisse suscipit sagittis leo.
+                                @lang('about.about_pointer_two')
                             </li>
                             <li>
                                 <i class="fa fa-arrow-circle-right"></i>
-                                Entum estibulum digni posuere.
+                                @lang('about.about_pointer_three')
                             </li>
                             <li>
                                 <i class="fa fa-arrow-circle-right"></i>
-                                Donec tristique ante dictum rhoncus.
+                                @lang('about.about_pointer_four')
                             </li>
                         </ul><!-- /.list-unstyled -->
                     </div><!-- /.about-two__content -->
@@ -66,13 +62,13 @@
                 <div class="col-lg-6">
                     <div class="call-to-action-two__content">
                         <ul class="list-unstyled call-to-action-two__list">
-                            <li>Simple</li>
-                            <li>Transparent</li>
-                            <li>Secure</li>
+                            <li>@lang('c_t_a.simple')</li>
+                            <li>@lang('c_t_a.transparent')</li>
+                            <li>@lang('c_t_a.secure')</li>
                         </ul><!-- /.call-to-action-two__list -->
-                        <h3 class="call-to-action-two__title">Get quick business loans</h3>
+                        <h3 class="call-to-action-two__title">@lang('c_t_a.get_quick_biz')</h3>
                         <!-- /.call-to-action-two__title -->
-                        <a href="{{route('apply-now')}}" class="thm-btn">Apply For Loan</a><!-- /.thm-btn -->
+                        <a href="{{route('apply-now')}}" class="thm-btn">@lang('home.apply_for_loan')</a><!-- /.thm-btn -->
                         <span class="call-to-action-two__arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.49 76.07">
                                     <path
@@ -88,303 +84,4 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section>
-    <section class="testimonials-one pt-120 mb--40">
-        <div class="container">
-            <div class="block-title text-center">
-                <p class="block-title__tagline">our testimonials</p><!-- /.block-title__tagline -->
-                <h2 class="block-title__title">What they’re talking about <br> our company</h2>
-                <!-- /.block-title__title -->
-            </div><!-- /.block-title -->
-            <div class="row row-gutter-y-30">
-                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card__info">
-                            <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-1.png')}}" alt="Delia Riley">
-                            </div><!-- /.testimonial-card__image -->
-                            <div class="testimonial-card__meta">
-                                <div class="testimonial-card__stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.testimonial-card__stars -->
-                                <h3 class="testimonial-card__name">Delia Riley</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
-                                <!-- /.testimonial-card__designation -->
-                            </div><!-- /.testimonial-card__meta -->
-                        </div><!-- /.testimonial-card__info -->
-                        <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
-                        <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient
-                                with questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
-                        </div><!-- /.testimonial-card__text -->
-                    </div><!-- /.testimonial-card -->
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card__info">
-                            <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-2.png')}}" alt="Essie Perez">
-                            </div><!-- /.testimonial-card__image -->
-                            <div class="testimonial-card__meta">
-                                <div class="testimonial-card__stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.testimonial-card__stars -->
-                                <h3 class="testimonial-card__name">Essie Perez</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
-                                <!-- /.testimonial-card__designation -->
-                            </div><!-- /.testimonial-card__meta -->
-                        </div><!-- /.testimonial-card__info -->
-                        <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
-                        <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient
-                                with questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
-                        </div><!-- /.testimonial-card__text -->
-                    </div><!-- /.testimonial-card -->
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card__info">
-                            <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-3.png')}}" alt="Dustin Dunn">
-                            </div><!-- /.testimonial-card__image -->
-                            <div class="testimonial-card__meta">
-                                <div class="testimonial-card__stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div><!-- /.testimonial-card__stars -->
-                                <h3 class="testimonial-card__name">Dustin Dunn</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
-                                <!-- /.testimonial-card__designation -->
-                            </div><!-- /.testimonial-card__meta -->
-                        </div><!-- /.testimonial-card__info -->
-                        <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
-                        <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient
-                                with questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
-                        </div><!-- /.testimonial-card__text -->
-                    </div><!-- /.testimonial-card -->
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.testimonials-one -->
-    <section class="fact-one pt-140 pb-100">
-        <div class="container">
-            <div class="row row-gutter-y-30">
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-one__item">
-                        <div class="fact-one__count">
-                                <span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>%
-                        </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Loans Approve</h3><!-- /.fact-one__title -->
-                    </div><!-- /.fact-one__item -->
-                </div><!-- /.col-lg-3 col-md-6 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-one__item">
-                        <div class="fact-one__count">$<span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>k
-                        </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Daily Payments</h3><!-- /.fact-one__title -->
-                    </div><!-- /.fact-one__item -->
-                </div><!-- /.col-lg-3 col-md-6 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-one__item">
-                        <div class="fact-one__count"><span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>k
-                        </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Happy Customers</h3><!-- /.fact-one__title -->
-                    </div><!-- /.fact-one__item -->
-                </div><!-- /.col-lg-3 col-md-6 -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="fact-one__item">
-                        <div class="fact-one__count"><span class="count-box">
-                                    <span class="count-text" data-stop="290" data-speed="1500"></span>
-                                </span><!-- /.count-box -->
-                        </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Expert People</h3><!-- /.fact-one__title -->
-                    </div><!-- /.fact-one__item -->
-                </div><!-- /.col-lg-3 col-md-6 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.fact-one -->
-    <section class="team-about pt-120 pb-120">
-        <div class="container">
-            <div class="block-title text-center">
-                <p class="block-title__tagline">professional team</p><!-- /.block-title__tagline -->
-                <h2 class="block-title__title">Meet the highly qualified <br> team members</h2>
-                <!-- /.block-title__title -->
-            </div><!-- /.block-title -->
-            <div class="row row-gutter-y-30">
-                <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-                     data-wow-delay="000ms">
-                    <div class="team-card">
-                        <div class="team-card__image">
-                            <img src="{{asset('assets/images/team/team-1-1.jpg')}}" alt="Connor Estrada">
-                            <div class="team-card__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-card__social -->
-                        </div><!-- /.team-card__image -->
-                        <div class="team-card__content">
-                            <div class="team-card__content__inner">
-                                <h3 class="team-card__title"><a href="team-details.html">Connor Estrada</a></h3>
-                                <p class="team-card__designation">ADVISOR</p>
-                            </div><!-- /.team-card__content__inner -->
-                        </div><!-- /.team-card__content -->
-                    </div><!-- /.team-card -->
-                </div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-                <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-                     data-wow-delay="100ms">
-                    <div class="team-card">
-                        <div class="team-card__image">
-                            <img src="{{asset('assets/images/team/team-1-2.jpg')}}" alt="Darrell Powell">
-                            <div class="team-card__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-card__social -->
-                        </div><!-- /.team-card__image -->
-                        <div class="team-card__content">
-                            <div class="team-card__content__inner">
-                                <h3 class="team-card__title"><a href="team-details.html">Darrell Powell</a></h3>
-                                <p class="team-card__designation">ADVISOR</p>
-                            </div><!-- /.team-card__content__inner -->
-                        </div><!-- /.team-card__content -->
-                    </div><!-- /.team-card -->
-                </div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-                <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms"
-                     data-wow-delay="200ms">
-                    <div class="team-card">
-                        <div class="team-card__image">
-                            <img src="{{asset('assets/images/team/team-1-3.jpg')}}" alt="Carolyn Love">
-                            <div class="team-card__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div><!-- /.team-card__social -->
-                        </div><!-- /.team-card__image -->
-                        <div class="team-card__content">
-                            <div class="team-card__content__inner">
-                                <h3 class="team-card__title"><a href="team-details.html">Carolyn Love</a></h3>
-                                <p class="team-card__designation">ADVISOR</p>
-                            </div><!-- /.team-card__content__inner -->
-                        </div><!-- /.team-card__content -->
-                    </div><!-- /.team-card -->
-                </div><!-- /.col-lg-4 col-md-6 col-sm-12 -->
-            </div><!-- /.row -->
-        </div><!-- /.container -->
-    </section><!-- /.team-about -->
-    <div class="client-carousel @@extraClassName">
-        <div class="container">
-            <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 30, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "375": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 5
-                }
-            }}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                </div><!-- /.swiper-wrapper -->
-            </div><!-- /.thm-swiper__slider -->
-        </div><!-- /.container -->
-    </div><!-- /.client-carousel -->
 @endsection

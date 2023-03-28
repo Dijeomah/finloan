@@ -33,15 +33,14 @@
                             <div class="col-lg-7">
                                 <p class="slider-one__tagline">
                                     <i class="fa fa-chart-pie"></i>
-                                    Simple & Secure Payment
+                                    @lang('home.simple_and_secure_payment')
                                 </p>
                                 <!-- /.slider-one__tagline -->
-                                <h2 class="slider-one__title">We provide you
-                                    a financial <span>power</span></h2><!-- /.slider-one__title -->
-                                <p class="slider-one__text">Nullam vel nibh facilisis lectus fermentum ultrices quis
-                                    non risus.</p><!-- /.slider-one__text -->
+                                <h2 class="slider-one__title">@lang('home.slider_one_text')
+                                    <span>@lang('home.power')</span></h2><!-- /.slider-one__title -->
+                                <p class="slider-one__text"></p><!-- /.slider-one__text -->
                                 <div class="slider-one__btns">
-                                    <a href="{{route('apply-now')}}" class="thm-btn">Apply For Loan</a>
+                                    <a href="{{route('apply-now')}}" class="thm-btn">@lang('home.apply_for_loan')</a>
                                 </div><!-- /.slider-one__btns -->
                             </div><!-- /.col-lg-7 -->
                         </div><!-- /.row -->
@@ -66,15 +65,14 @@
                             <div class="col-lg-7">
                                 <p class="slider-one__tagline">
                                     <i class="fa fa-chart-pie"></i>
-                                    Simple & Secure Payment
+                                    @lang('home.simple_and_secure_payment')
                                 </p>
                                 <!-- /.slider-one__tagline -->
-                                <h2 class="slider-one__title">We provide you
-                                    a financial <span>power</span></h2><!-- /.slider-one__title -->
-                                <p class="slider-one__text">Nullam vel nibh facilisis lectus fermentum ultrices quis
-                                    non risus.</p><!-- /.slider-one__text -->
+                                <h2 class="slider-one__title">@lang('home.slider_one_text')
+                                    <span>@lang('home.power')</span></h2><!-- /.slider-one__title -->
+                                <p class="slider-one__text"></p><!-- /.slider-one__text -->
                                 <div class="slider-one__btns">
-                                    <a href="apply-now.blade.php" class="thm-btn">Apply For Loan</a>
+                                    <a href="apply-now.blade.php" class="thm-btn">@lang('home.apply_for_loan')</a>
                                 </div><!-- /.slider-one__btns -->
                             </div><!-- /.col-lg-7 -->
                         </div><!-- /.row -->
@@ -95,8 +93,8 @@
                 <i class="icon-successful"></i>
             </div><!-- /.slider-one__box__icon -->
             <div class="slider-one__box__content">
-                <p class="slider-one__box__tagline">Checkout our</p><!-- /.slider-one__box__tagline -->
-                <h3 class="slider-one__box__title">88% Success Rates</h3><!-- /.slider-one__box__title -->
+                <p class="slider-one__box__tagline">@lang('home.checkout_our')</p><!-- /.slider-one__box__tagline -->
+                <h3 class="slider-one__box__title">@lang('home.success_rate')</h3><!-- /.slider-one__box__title -->
             </div><!-- /.slider-one__box__content -->
         </div><!-- /.slider-one__box -->
     </section><!-- /.slider-one -->
@@ -107,8 +105,9 @@
                 <div class="col-lg-6">
                     <div class="about-four__content">
                         <div class="block-title text-left">
-                            <p class="block-title__tagline">About Company</p><!-- /.block-title__tagline -->
-                            <h2 class="block-title__title">Personal loans to fulfill your dreams</h2>
+                            <p class="block-title__tagline">@lang('home.about_company')</p>
+                            <!-- /.block-title__tagline -->
+                            <h2 class="block-title__title">@lang('home.personal_loans_to_fulfill_your_dreams')</h2>
                             <!-- /.block-title__title -->
                         </div><!-- /.block-title -->
                         <div class="about-four__box">
@@ -116,12 +115,11 @@
                                 <i class="icon-loan"></i>
                             </div><!-- /.about-four__box__icon -->
                             <div class="about-four__box__content">
-                                <h3 class="about-four__box__title">We’re in this business since 1987 and we provide the
-                                    best
-                                    services.</h3><!-- /.about-four__box__title -->
+                                <h3 class="about-four__box__title">@lang('home.in_business')</h3>
+                                <!-- /.about-four__box__title -->
                             </div><!-- /.about-four__box__content -->
                         </div><!-- /.about-four__box -->
-                        <p class="about-four__text">We are a team of financial experts dedicated to helping our clients get the loans they need. Whether you need a personal loan, business loan, or any other type of financial support, we are here to help. Our goal is to make the loan process as easy and stress-free as possible, so you can focus on what really matters.</p>
+                        <p class="about-four__text">@lang('home.who_we_are')</p>
                         <!-- /.about-four__text -->
                         <div class="row row-gutter-y-20">
                             <div class="col-md-6">
@@ -130,29 +128,18 @@
                                         <div class="about-four__feature__icon">
                                             <i class="icon-confirmation"></i>
                                         </div><!-- /.about-four__feature__icon -->
-                                        <h3 class="about-four__feature__title">Direct card payment</h3>
+                                        <h3 class="about-four__feature__title">@lang('home.direct_card_payment')</h3>
                                         <!-- /.about-four__feature__title -->
                                     </div><!-- /.about-four__feature__content -->
-                                    <div class="about-four__feature__text">Lorem ipsum dolor sit ame ed consectetur nod.
-                                    </div><!-- /.about-four__feature__text -->
-                                </div><!-- /.about-four__feature -->
-                            </div><!-- /.col-md-6 -->
-                            <div class="col-md-6">
-                                <div class="about-four__feature">
-                                    <div class="about-four__feature__content">
-                                        <div class="about-four__feature__icon">
-                                            <i class="icon-confirmation"></i>
-                                        </div><!-- /.about-four__feature__icon -->
-                                        <h3 class="about-four__feature__title">Direct card payment</h3>
-                                        <!-- /.about-four__feature__title -->
-                                    </div><!-- /.about-four__feature__content -->
-                                    <div class="about-four__feature__text">Lorem ipsum dolor sit ame ed consectetur nod.
-                                    </div><!-- /.about-four__feature__text -->
+                                    <div class="about-four__feature__text">@lang('home.direct_card_payment_text')</div>
+                                    <!-- /.about-four__feature__text -->
                                 </div><!-- /.about-four__feature -->
                             </div><!-- /.col-md-6 -->
                         </div><!-- /.row -->
                         <div class="about-four__btns">
-                            <a href="about.blade.php" class="thm-btn thm-btn--dark-hover">Discover More</a><!-- /.thm-btn -->
+                            <a href="{{route('about')}}"
+                               class="thm-btn thm-btn--dark-hover">@lang('home.discover_more')</a>
+                            <!-- /.thm-btn -->
                         </div><!-- /.about-four__btns -->
                     </div><!-- /.about-four__content -->
                 </div><!-- /.col-lg-6 -->
@@ -163,10 +150,11 @@
                         <img src="{{asset('assets/images/resources/about-4-1.png')}}" alt="">
                         <div class="about-four__image__caption">
                             <h3 class="about-four__image__caption__year">25<i>+</i></h3>
-                            <p class="about-four__image__caption__text">Years
-                                Experience</p><!-- /.about-four__image__caption__text -->
+                            <p class="about-four__image__caption__text">@lang('home.years_experience')</p>
+                            <!-- /.about-four__image__caption__text -->
                         </div><!-- /.about-four__image__caption -->
-                        <div class="about-four__image__floated">Finance</div><!-- /.team-details__floated -->
+                        <div class="about-four__image__floated">@lang('home.finance')</div>
+                        <!-- /.team-details__floated -->
                     </div><!-- /.about-four__image -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
@@ -184,12 +172,12 @@
                         </div><!-- /.service-card-two__icon -->
                         <div class="service-card-two__content">
                             <h3 class="service-card-two__title">
-                                <a href="services-details.html">Safe and Secure
-                                    Payments</a>
+                                <a href="{{route('services')}}">@lang('home.safe_and_secure')</a>
                             </h3><!-- /.service-card-two__title -->
-                            <p class="service-card-two__text">Duis aute irure dolor lipsum free is simply free text the
-                                local markets in reprehenderit.</p><!-- /.service-card-two__text -->
-                            <a href="services-details.html" class="service-card-two__link">More Detail</a>
+                            <p class="service-card-two__text">@lang('home.safe_and_secure_text')</p>
+                            <!-- /.service-card-two__text -->
+                            <a href="{{route('services')}}"
+                               class="service-card-two__link">@lang('home.more_details')</a>
                             <!-- /.service-card-two__link -->
                         </div><!-- /.service-card-two__content -->
                     </div><!-- /.service-card-two -->
@@ -202,12 +190,11 @@
                         </div><!-- /.service-card-two__icon -->
                         <div class="service-card-two__content">
                             <h3 class="service-card-two__title">
-                                <a href="services-details.html">Quick Payment
-                                    Process</a>
+                                <a href="{{route('services')}}">@lang('home.quick_payment_process')</a>
                             </h3><!-- /.service-card-two__title -->
-                            <p class="service-card-two__text">Duis aute irure dolor lipsum free is simply free text the
-                                local markets in reprehenderit.</p><!-- /.service-card-two__text -->
-                            <a href="services-details.html" class="service-card-two__link">More Detail</a>
+                            <p class="service-card-two__text"></p><!-- /.service-card-two__text -->
+                            <a href="{{route('services')}}"
+                               class="service-card-two__link">@lang('home.more_details')</a>
                             <!-- /.service-card-two__link -->
                         </div><!-- /.service-card-two__content -->
                     </div><!-- /.service-card-two -->
@@ -220,12 +207,11 @@
                         </div><!-- /.service-card-two__icon -->
                         <div class="service-card-two__content">
                             <h3 class="service-card-two__title">
-                                <a href="services-details.html">No Prepayment
-                                    Charges</a>
+                                <a href="{{route('services')}}">@lang('home.no_prepayment_charges')</a>
                             </h3><!-- /.service-card-two__title -->
-                            <p class="service-card-two__text">Duis aute irure dolor lipsum free is simply free text the
-                                local markets in reprehenderit.</p><!-- /.service-card-two__text -->
-                            <a href="services-details.html" class="service-card-two__link">More Detail</a>
+                            <p class="service-card-two__text"></p><!-- /.service-card-two__text -->
+                            <a href="{{route('services')}}"
+                               class="service-card-two__link">@lang('home.more_details')</a>
                             <!-- /.service-card-two__link -->
                         </div><!-- /.service-card-two__content -->
                     </div><!-- /.service-card-two -->
@@ -240,146 +226,45 @@
             <div class="row row-gutter-y-50">
                 <div class="col-lg-6">
                     <div class="video-one__content">
-                        <a href="https://www.youtube.com/watch?v=m2b9ZTBlW2k" class="video-popup video-one__btn">
-                            <i class="fa fa-play"></i>
-                            <span class="ripple"></span>
-                        </a><!-- /.video-popup -->
-                        <h3 class="video-one__title">Hundreds of customers <br> trust our company</h3>
+                        <h3 class="video-one__title">@lang('home.video_title') <br> @lang('home.video_title_contd')</h3>
                     </div><!-- /.video-one__content -->
                 </div><!-- /.col-lg-6 -->
                 <div class="col-lg-6">
                     <ul class="list-unstyled video-one__list">
                         <li>
                             <i class="icon-tick"></i>
-                            Expert & Certified
+                            @lang('home.expert_certified')
                         </li>
                         <li>
                             <i class="icon-tick"></i>
-                            Quality Services
+                            @lang('home.quality_services')
                         </li>
                         <li>
                             <i class="icon-tick"></i>
-                            Quick Loan Order
+                            @lang('home.quick_loan_order')
                         </li>
                         <li>
                             <i class="icon-tick"></i>
-                            Status Monitor
+                            @lang('home.status_monitor')
                         </li>
                         <li>
                             <i class="icon-tick"></i>
-                            Status Monitor
-                        </li>
-                        <li>
-                            <i class="icon-tick"></i>
-                            Easy to Use
+                            @lang('home.easy_to_use')
                         </li>
                     </ul><!-- /.list-unstyled video-one__list -->
                 </div><!-- /.col-lg-6 -->
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.video-one -->
-    <div class="client-carousel @@extraClassName">
-        <div class="container">
-            <div class="thm-swiper__slider swiper-container" data-swiper-options='{"spaceBetween": 30, "slidesPerView": 5, "autoplay": { "delay": 5000 }, "breakpoints": {
-                "0": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "375": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 2
-                },
-                "575": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 3
-                },
-                "767": {
-                    "spaceBetween": 50,
-                    "slidesPerView": 4
-                },
-                "991": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 5
-                },
-                "1199": {
-                    "spaceBetween": 30,
-                    "slidesPerView": 5
-                }
-            }}'>
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide">
-                        <img src="{{asset('assets/images/resources/brand-1-1.png')}}" alt="">
-                    </div><!-- /.swiper-slide -->
-                </div><!-- /.swiper-wrapper -->
-            </div><!-- /.thm-swiper__slider -->
-        </div><!-- /.container -->
-    </div><!-- /.client-carousel -->
-
     <section class="service-one pt-120 pb-140">
         <img src="{{asset('assets/images/shapes/service-h-1.png')}}" class="service-one__icon-1" alt="">
         <img src="{{asset('assets/images/shapes/service-h-2.png')}}" class="service-one__icon-2" alt="">
         <img src="{{asset('assets/images/shapes/service-h-3.png')}}" class="service-one__icon-3" alt="">
         <div class="container">
             <div class="block-title text-center">
-                <p class="block-title__tagline">What We’re Offering</p><!-- /.block-title__tagline -->
-                <h2 class="block-title__title">We provide best services <br> for your loans </h2>
+                <p class="block-title__tagline">@lang('home.service_offering_tag')</p><!-- /.block-title__tagline -->
+                <h2 class="block-title__title">@lang('home.service_offering_title')
+                    <br> @lang('home.service_offering_title_contd') </h2>
                 <!-- /.block-title__title -->
             </div><!-- /.block-title -->
             <div class="row row-gutter-y-50">
@@ -387,7 +272,7 @@
                     <div class="service-card">
                         <div class="service-card__image">
                             <img src="{{asset('assets/images/services/services-1-1.png')}}" alt="Auto Car Loan">
-                            <a href="services-details.html"></a>
+                            <a href="{{route('services')}}"></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__content__inner">
@@ -395,12 +280,11 @@
                                     <i class="icon-car"></i>
                                 </div><!-- /.service-card__icon -->
                                 <h3 class="service-card__title">
-                                    <a href="services-details.html">Auto Car Loan</a>
+                                    <a href="{{route('services')}}">@lang('home.auto_car_loan')</a>
                                 </h3><!-- /.service-card__title -->
-                                <p class="service-card__text">Car Loan provide low interest many variations of passages
-                                    of lorem ipsum have
-                                    some.</p><!-- /.service-card__text -->
-                                <a href="services-details.html" class="service-card__link">
+                                <p class="service-card__text">@lang('home.auto_car_loan_text')</p>
+                                <!-- /.service-card__text -->
+                                <a href="{{route('services')}}" class="service-card__link">
                                     <i class="fa fa-angle-right"></i>
                                 </a><!-- /.service-card__link -->
                             </div><!-- /.service-card__content__inner -->
@@ -410,8 +294,9 @@
                 <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="service-card">
                         <div class="service-card__image">
-                            <img src="{{asset('assets/images/services/services-1-2.png')}}" alt="Wedding Loan">
-                            <a href="services-details.html"></a>
+                            <img src="{{asset('assets/images/services/services-1-2.png')}}"
+                                 alt="@lang('home.wedding_loan')">
+                            <a href="{{route('services')}}"></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__content__inner">
@@ -419,12 +304,11 @@
                                     <i class="icon-diamond"></i>
                                 </div><!-- /.service-card__icon -->
                                 <h3 class="service-card__title">
-                                    <a href="services-details.html">Wedding Loan</a>
+                                    <a href="{{route('services')}}">@lang('home.wedding_loan')</a>
                                 </h3><!-- /.service-card__title -->
-                                <p class="service-card__text">Car Loan provide low interest many variations of passages
-                                    of lorem ipsum have
-                                    some.</p><!-- /.service-card__text -->
-                                <a href="services-details.html" class="service-card__link">
+                                <p class="service-card__text">@lang('home.wedding_loan_text')</p>
+                                <!-- /.service-card__text -->
+                                <a href="{{route('services')}}" class="service-card__link">
                                     <i class="fa fa-angle-right"></i>
                                 </a><!-- /.service-card__link -->
                             </div><!-- /.service-card__content__inner -->
@@ -435,7 +319,7 @@
                     <div class="service-card">
                         <div class="service-card__image">
                             <img src="{{asset('assets/images/services/services-1-3.png')}}" alt="Property Loan">
-                            <a href="services-details.html"></a>
+                            <a href="{{route('services')}}"></a>
                         </div><!-- /.service-card__image -->
                         <div class="service-card__content">
                             <div class="service-card__content__inner">
@@ -443,12 +327,11 @@
                                     <i class="icon-house"></i>
                                 </div><!-- /.service-card__icon -->
                                 <h3 class="service-card__title">
-                                    <a href="services-details.html">Property Loan</a>
+                                    <a href="{{route('services')}}">@lang('home.property_loan')</a>
                                 </h3><!-- /.service-card__title -->
-                                <p class="service-card__text">Car Loan provide low interest many variations of passages
-                                    of lorem ipsum have
-                                    some.</p><!-- /.service-card__text -->
-                                <a href="services-details.html" class="service-card__link">
+                                <p class="service-card__text">@lang('home.property_loan_text')</p>
+                                <!-- /.service-card__text -->
+                                <a href="{{route('services')}}" class="service-card__link">
                                     <i class="fa fa-angle-right"></i>
                                 </a><!-- /.service-card__link -->
                             </div><!-- /.service-card__content__inner -->
@@ -464,16 +347,15 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="block-title text-left">
-                            <p class="block-title__tagline">calculate your rate</p><!-- /.block-title__tagline -->
-                            <h2 class="block-title__title">How much do you need loan for you?</h2>
+                            <p class="block-title__tagline">@lang('home.loan_calculator.calculate_your_rate')</p>
+                            <!-- /.block-title__tagline -->
+                            <h2 class="block-title__title">@lang('home.loan_calculator.how_much_loan_needed')</h2>
                             <!-- /.block-title__title -->
                         </div><!-- /.block-title -->
                     </div><!-- /.col-md-6 -->
                     <div class="col-md-6">
-                        <p class="loan-calculator__top__text">Nullam vel nibh facilisis lectus fermentum ultrices quis
-                            non
-                            risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea
-                            dictumst.</p><!-- /.loan-calculator__top__text -->
+                        <p class="loan-calculator__top__text">@lang('home.loan_calculator.request_loan_text')</p>
+                        <!-- /.loan-calculator__top__text -->
                     </div><!-- /.col-md-6 -->
                 </div><!-- /.row -->
             </div><!-- /.loan-calculator__top -->
@@ -484,8 +366,8 @@
                         <form class="loan-calculator__form" action="https://thegenius.co/html/finlon_new1/contact.html"
                               id="loan-calculator" data-interest-rate="15">
                             <div class="input-box__top">
-                                <span>$1000</span>
-                                <span>$40000</span>
+                                <span>$ @php echo number_format(1000,1) @endphp</span>
+                                <span>$ @php echo number_format(40000,1) @endphp </span>
                             </div><!-- /.input-box__top -->
                             <div class="input-box">
                                 <div class="range-slider-count" id="range-slider-count"></div>
@@ -493,8 +375,8 @@
                                 <input type="hidden" value="" id="max-value-rangeslider-count">
                             </div><!-- /.input-box -->
                             <div class="input-box__top">
-                                <span>1 Month</span>
-                                <span>12 Months</span>
+                                <span>1 @lang('home.loan_calculator.month')</span>
+                                <span>12 @lang('home.loan_calculator.months')</span>
                             </div><!-- /.input-box__top -->
                             <div class="input-box">
                                 <div class="range-slider-month" id="range-slider-month"></div>
@@ -502,23 +384,20 @@
                                 <input type="hidden" value="" id="max-value-rangeslider-month">
                             </div><!-- /.input-box -->
                             <p>
-                                <span>Pay Monthly</span>
+                                <span>@lang('home.loan_calculator.pay_monthly')</span>
                                 <b>$<i id="loan-monthly-pay"></i></b>
                             </p>
                             <p>
-                                <span>Term of Use</span>
-                                <b><i id="loan-month"></i> Months</b>
+                                <span>@lang('home.loan_calculator.term_of_use')</span>
+                                <b><i id="loan-month"></i> @lang('home.loan_calculator.months')</b>
                             </p>
                             <p>
-                                <span>Total Pay Back</span>
+                                <span>@lang('home.loan_calculator.total_pay_back')</span>
                                 <b>$<i id="loan-total"></i></b>
                             </p>
-                            <a href="apply-now.blade.php" class="thm-btn thm-btn--dark-hover">Apply For Loan</a>
+                            <a href="apply-now.blade.php" class="thm-btn thm-btn--dark-hover">@lang('home.apply_for_loan')</a>
 
-                            <div class="loan-calculator__form__terms">*These calculators are provided only as general
-                                self-help
-                                Planning
-                                Tools. Results depend on other factors.
+                            <div class="loan-calculator__form__terms">@lang('home.loan_calculator.form_terms')
                             </div><!-- /.loan-calculator__terms -->
                         </form><!-- /.about-one__from -->
                     </div><!-- /.col-lg-6 -->
@@ -529,7 +408,7 @@
                                 <div class="loan-calculator__image__caption__inner">
                                     <h3 class="loan-calculator__image__title">98<span>%</span></h3>
                                     <!-- /.loan-calculator__image__title -->
-                                    <p class="loan-calculator__image__text">Satisfied Customers</p>
+                                    <p class="loan-calculator__image__text">@lang('home.loan_calculator.satisfied_customers')</p>
                                 </div><!-- /.loan-calculator__image__caption__inner -->
                             </div><!-- /.loan-calculator__image__caption -->
                         </div><!-- /.loan-calculator__image -->
@@ -541,8 +420,8 @@
     <section class="testimonials-one pt-120 mb--40">
         <div class="container">
             <div class="block-title text-center">
-                <p class="block-title__tagline">our testimonials</p><!-- /.block-title__tagline -->
-                <h2 class="block-title__title">What they’re talking about <br> our company</h2>
+                <p class="block-title__tagline">@lang('home.testimonials.testimonials_header')</p><!-- /.block-title__tagline -->
+                <h2 class="block-title__title">@lang('home.testimonials.testimony_title') <br> @lang('home.testimonials.testimony_title_contd')</h2>
                 <!-- /.block-title__title -->
             </div><!-- /.block-title -->
             <div class="row row-gutter-y-30">
@@ -550,7 +429,7 @@
                     <div class="testimonial-card">
                         <div class="testimonial-card__info">
                             <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-1.png')}}" alt="Delia Riley">
+                                <img src="{{asset('assets/images/resources/testi-1-2.png')}}" alt="Sarah Johnson">
                             </div><!-- /.testimonial-card__image -->
                             <div class="testimonial-card__meta">
                                 <div class="testimonial-card__stars">
@@ -560,16 +439,14 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div><!-- /.testimonial-card__stars -->
-                                <h3 class="testimonial-card__name">Delia Riley</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
+                                <h3 class="testimonial-card__name">Sarah Johnson</h3><!-- /.testimonial-card__name -->
+                                <p class="testimonial-card__designation">@lang('home.testimonials.designation_one')</p>
                                 <!-- /.testimonial-card__designation -->
                             </div><!-- /.testimonial-card__meta -->
                         </div><!-- /.testimonial-card__info -->
                         <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
                         <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient with
-                                questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
+                            <p>@lang('home.testimonials.testimonial_one')</p>
                         </div><!-- /.testimonial-card__text -->
                     </div><!-- /.testimonial-card -->
                 </div><!-- /.col-lg-4 -->
@@ -577,7 +454,7 @@
                     <div class="testimonial-card">
                         <div class="testimonial-card__info">
                             <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-2.png')}}" alt="Essie Perez">
+                                <img src="{{asset('assets/images/resources/testi-1-3.png')}}" alt="Mark Davis">
                             </div><!-- /.testimonial-card__image -->
                             <div class="testimonial-card__meta">
                                 <div class="testimonial-card__stars">
@@ -587,16 +464,14 @@
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
                                 </div><!-- /.testimonial-card__stars -->
-                                <h3 class="testimonial-card__name">Essie Perez</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
+                                <h3 class="testimonial-card__name">Mark Davis</h3><!-- /.testimonial-card__name -->
+                                <p class="testimonial-card__designation">@lang('home.testimonials.designation_two')</p>
                                 <!-- /.testimonial-card__designation -->
                             </div><!-- /.testimonial-card__meta -->
                         </div><!-- /.testimonial-card__info -->
                         <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
                         <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient with
-                                questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
+                            <p>@lang('home.testimonials.testimonial_two')</p>
                         </div><!-- /.testimonial-card__text -->
                     </div><!-- /.testimonial-card -->
                 </div><!-- /.col-lg-4 -->
@@ -604,7 +479,7 @@
                     <div class="testimonial-card">
                         <div class="testimonial-card__info">
                             <div class="testimonial-card__image">
-                                <img src="{{asset('assets/images/resources/testi-1-3.png')}}" alt="Dustin Dunn">
+                                <img src="{{asset('assets/images/resources/testi-1-1.png')}}" alt="Dustin Dunn">
                             </div><!-- /.testimonial-card__image -->
                             <div class="testimonial-card__meta">
                                 <div class="testimonial-card__stars">
@@ -615,15 +490,13 @@
                                     <i class="fa fa-star"></i>
                                 </div><!-- /.testimonial-card__stars -->
                                 <h3 class="testimonial-card__name">Dustin Dunn</h3><!-- /.testimonial-card__name -->
-                                <p class="testimonial-card__designation">Finance Manager</p>
+                                <p class="testimonial-card__designation">@lang('home.testimonials.designation_three')</p>
                                 <!-- /.testimonial-card__designation -->
                             </div><!-- /.testimonial-card__meta -->
                         </div><!-- /.testimonial-card__info -->
                         <span class="testimonial-card__line"></span><!-- /.testimonial-card__line -->
                         <div class="testimonial-card__text">
-                            <p>I loved the customer service you guys provided me. That was very nice and patient with
-                                questions I had. I
-                                would really like definitely come back here. Thank you for yours service.</p>
+                            <p>@lang('home.testimonials.testimonial_three')</p>
                         </div><!-- /.testimonial-card__text -->
                     </div><!-- /.testimonial-card -->
                 </div><!-- /.col-lg-4 -->
@@ -640,7 +513,7 @@
                                     <span class="count-text" data-stop="90" data-speed="1500"></span>
                                 </span>%
                         </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Loans Approve</h3><!-- /.fact-one__title -->
+                        <h3 class="fact-one__title">@lang('home.facts.loans_approved')</h3><!-- /.fact-one__title -->
                     </div><!-- /.fact-one__item -->
                 </div><!-- /.col-lg-3 col-md-6 -->
                 <div class="col-lg-3 col-md-6">
@@ -649,7 +522,7 @@
                                     <span class="count-text" data-stop="90" data-speed="1500"></span>
                                 </span>k
                         </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Daily Payments</h3><!-- /.fact-one__title -->
+                        <h3 class="fact-one__title">@lang('home.facts.daily_payment')</h3><!-- /.fact-one__title -->
                     </div><!-- /.fact-one__item -->
                 </div><!-- /.col-lg-3 col-md-6 -->
                 <div class="col-lg-3 col-md-6">
@@ -658,7 +531,7 @@
                                     <span class="count-text" data-stop="90" data-speed="1500"></span>
                                 </span>k
                         </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Happy Customers</h3><!-- /.fact-one__title -->
+                        <h3 class="fact-one__title">@lang('home.facts.happy_customers')</h3><!-- /.fact-one__title -->
                     </div><!-- /.fact-one__item -->
                 </div><!-- /.col-lg-3 col-md-6 -->
                 <div class="col-lg-3 col-md-6">
@@ -667,7 +540,7 @@
                                     <span class="count-text" data-stop="290" data-speed="1500"></span>
                                 </span><!-- /.count-box -->
                         </div><!-- /.fact-one__count -->
-                        <h3 class="fact-one__title">Expert People</h3><!-- /.fact-one__title -->
+                        <h3 class="fact-one__title">@lang('home.facts.expert_people')</h3><!-- /.fact-one__title -->
                     </div><!-- /.fact-one__item -->
                 </div><!-- /.col-lg-3 col-md-6 -->
             </div><!-- /.row -->
@@ -685,7 +558,7 @@
                         <img src="{{asset('assets/images/resources/benefit-1-1.png')}}" alt="">
                         <div class="benefit-one__image__caption">
                             <h3 class="benefit-one__image__title">99.9%</h3><!-- /.benefit-one__image__title -->
-                            <p class="benefit-one__image__text">Success Rates Guarantee</p>
+                            <p class="benefit-one__image__text">@lang('home.benefits.success_rate')</p>
                             <!-- /.benefit-one__image__text -->
                         </div><!-- /.benefit-one__image__caption -->
                     </div><!-- /.benefit-one__image -->
@@ -693,25 +566,19 @@
                 <div class="col-lg-6">
                     <div class="benefit-one__content">
                         <div class="block-title text-left">
-                            <p class="block-title__tagline">our benefits</p><!-- /.block-title__tagline -->
-                            <h2 class="block-title__title">Why you should choose our company</h2>
+                            <p class="block-title__tagline">@lang('home.benefits.our_benefits')</p><!-- /.block-title__tagline -->
+                            <h2 class="block-title__title">@lang('home.benefits.why_choose_our_company')</h2>
                             <!-- /.block-title__title -->
                         </div><!-- /.block-title -->
-                        <p class="benefit-one__text">Nullam vel nibh facilisis lectus fermentum ultrices quis non risus.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
-                            Duis
-                            porta, quam ut finibus ultrices, lorem lacus congue lorem et rutrum sapien magna tincidunt
-                            magna.</p><!-- /.benefit-one__text -->
+                        <p class="benefit-one__text">@lang('home.benefits.why_choose_text')</p><!-- /.benefit-one__text -->
                         <div class="benefit-one__box">
                             <div class="benefit-one__box__icon">
                                 <i class="icon-bank"></i>
                             </div><!-- /.benefit-one__box__icon -->
                             <div class="benefit-one__box__content">
-                                <h3 class="benefit-one__box__title">Lowest bank fees</h3>
+                                <h3 class="benefit-one__box__title">@lang('home.benefits.benefits_one_title')</h3>
                                 <!-- /.benefit-one__box__title -->
-                                <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien
-                                    samet.
-                                    Aucibus sed sem non, mattis commodo nisi.</p><!-- /.benefit-one__box__text -->
+                                <p class="benefit-one__box__text">@lang('home.benefits.benefits_one_text')</p><!-- /.benefit-one__box__text -->
                             </div><!-- /.benefit-one__box__content -->
                         </div><!-- /.benefit-one__box -->
                         <div class="benefit-one__box">
@@ -719,11 +586,9 @@
                                 <i class="icon-payment"></i>
                             </div><!-- /.benefit-one__box__icon -->
                             <div class="benefit-one__box__content">
-                                <h3 class="benefit-one__box__title">Up to 20.000$ limit</h3>
+                                <h3 class="benefit-one__box__title">@lang('home.benefits.benefits_two_title')</h3>
                                 <!-- /.benefit-one__box__title -->
-                                <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien
-                                    samet.
-                                    Aucibus sed sem non, mattis commodo nisi.</p><!-- /.benefit-one__box__text -->
+                                <p class="benefit-one__box__text">@lang('home.benefits.benefits_two_text')</p><!-- /.benefit-one__box__text -->
                             </div><!-- /.benefit-one__box__content -->
                         </div><!-- /.benefit-one__box -->
                         <div class="benefit-one__box">
@@ -731,11 +596,9 @@
                                 <i class="icon-smartphone-1"></i>
                             </div><!-- /.benefit-one__box__icon -->
                             <div class="benefit-one__box__content">
-                                <h3 class="benefit-one__box__title">Easy in 3 steps</h3>
+                                <h3 class="benefit-one__box__title">@lang('home.benefits.benefits_three_title')</h3>
                                 <!-- /.benefit-one__box__title -->
-                                <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien
-                                    samet.
-                                    Aucibus sed sem non, mattis commodo nisi.</p><!-- /.benefit-one__box__text -->
+                                <p class="benefit-one__box__text">@lang('home.benefits.benefits_three_text')</p><!-- /.benefit-one__box__text -->
                             </div><!-- /.benefit-one__box__content -->
                         </div><!-- /.benefit-one__box -->
                     </div><!-- /.benefit-one__content -->
@@ -743,80 +606,6 @@
             </div><!-- /.row -->
         </div><!-- /.container -->
     </section><!-- /.benefit-one -->
-    <section class="blog-one pt-120 pb-120">
-        <div class="container">
-            <div class="block-title text-center">
-                <p class="block-title__tagline">What We’re Offering</p><!-- /.block-title__tagline -->
-                <h2 class="block-title__title">Our latest news updates <br> & articles</h2><!-- /.block-title__title -->
-            </div><!-- /.block-title -->
-            <div class="row row-gutter-y-30">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="blog-card">
-                        <div class="blog-card__image">
-                            <div class="blog-card__date"><span>05</span> Mar</div><!-- /.blog-card__date -->
-                            <img src="{{asset('assets/images/blog/blog-1-1.png')}}"
-                                 alt="Which growth strategies you should adopt">
-                            <a href="blog-details.html"></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                            </div><!-- /.blog-card__meta -->
-                            <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should
-                                    adopt</a></h3>
-                            <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local
-                                markets.</p>
-                            <a href="blog-details.html" class="blog-card__link">Read More</a><!-- /.blog-card__link -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-12 col-sm-12 -->
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="blog-card">
-                        <div class="blog-card__image">
-                            <div class="blog-card__date"><span>05</span> Mar</div><!-- /.blog-card__date -->
-                            <img src="{{asset('')}}assets/images/blog/blog-1-2.png"
-                                 alt="Which growth strategies you should adopt">
-                            <a href="blog-details.html"></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                            </div><!-- /.blog-card__meta -->
-                            <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should
-                                    adopt</a></h3>
-                            <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local
-                                markets.</p>
-                            <a href="blog-details.html" class="blog-card__link">Read More</a><!-- /.blog-card__link -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-12 col-sm-12 -->
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="blog-card">
-                        <div class="blog-card__image">
-                            <div class="blog-card__date"><span>05</span> Mar</div><!-- /.blog-card__date -->
-                            <img src="{{asset('')}}assets/images/blog/blog-1-3.png"
-                                 alt="Which growth strategies you should adopt">
-                            <a href="blog-details.html"></a>
-                        </div><!-- /.blog-card__image -->
-                        <div class="blog-card__content">
-                            <div class="blog-card__meta">
-                                <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                            </div><!-- /.blog-card__meta -->
-                            <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should
-                                    adopt</a></h3>
-                            <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local
-                                markets.</p>
-                            <a href="blog-details.html" class="blog-card__link">Read More</a><!-- /.blog-card__link -->
-                        </div><!-- /.blog-card__content -->
-                    </div><!-- /.blog-card -->
-                </div><!-- /.col-lg-4 col-md-12 col-sm-12 -->
-            </div><!-- /.row -->
-
-        </div><!-- /.container -->
-    </section><!-- /.blog-one -->
     <section class="call-to-action-two">
         <div class="container">
             <div class="row">
@@ -832,9 +621,9 @@
                             <li>Transparent</li>
                             <li>Secure</li>
                         </ul><!-- /.call-to-action-two__list -->
-                        <h3 class="call-to-action-two__title">Get quick business loans</h3>
+                        <h3 class="call-to-action-two__title">@lang('home.get_quick_loans')</h3>
                         <!-- /.call-to-action-two__title -->
-                        <a href="apply-now.blade.php" class="thm-btn">Apply For Loan</a><!-- /.thm-btn -->
+                        <a href="apply-now.blade.php" class="thm-btn">@lang('home.apply_for_loan')</a><!-- /.thm-btn -->
                         <span class="call-to-action-two__arrow">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.49 76.07">
                                     <path

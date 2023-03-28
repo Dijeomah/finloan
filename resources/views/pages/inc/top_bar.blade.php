@@ -6,8 +6,8 @@
         </div><!-- /.topbar__info -->
         <div class="topbar__links">
             <a href="{{route('login')}}">Login</a>
-            <a href="blog.html">Company News</a>
-            <a href="faqs.html">FAQs</a>
+            <a href="locale/en">English</a>
+            <a href="locale/de">Dutch</a>
         </div><!-- /.topbar__links -->
         <div class="topbar__social">
             <a href="#"><i class="fab fa-twitter"></i></a>

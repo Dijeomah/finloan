@@ -6,8 +6,7 @@
                     <a href="{{route('home')}}" class="footer-widget__logo">
                         <img src="{{asset('assets/images/logo-light.png')}}" alt="finlon" width="140" height="51">
                     </a>
-                    <p class="footer-widget__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac
-                        habitasse platea dictumst.</p>
+                    <p class="footer-widget__text">Footer text here.</p>
                     <ul class="list-unstyled footer-widget__info">
                         <li>
                             <i class="icon-email"></i>
@@ -26,11 +25,10 @@
                         Explore
                     </h3><!-- /.footer-widget__title -->
                     <ul class="list-unstyled footer-widget__menu">
-                        <li><a href="{{route('about')}}">About</a></li>
-                        <li><a href="{{route('services')}}">Our Services</a></li>
-                        <li><a href="blog.html">Latest News</a></li>
-                        <li><a href="{{route('apply-now')}}">Apply for Loan</a></li>
-                        <li><a href="{{route('contact')}}">Contact</a></li>
+                        <li><a href="{{route('about')}}">@lang('navigation.about')</a></li>
+                        <li><a href="{{route('services')}}">@lang('navigation.services')</a></li>
+                        <li><a href="{{route('apply-now')}}">@lang('home.apply_for_loan')</a></li>
+                        <li><a href="{{route('contact')}}">@lang('navigation.contact')</a></li>
                     </ul><!-- /.list-unstyled footer-widget__menu -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-lg-2 -->
@@ -50,26 +48,12 @@
                     </div><!-- /.footer-widget__social -->
                 </div><!-- /.footer-widget -->
             </div><!-- /.col-lg-3 -->
-            <div class="col-lg-3 col-md-6">
-                <div class="footer-widget footer-widget--newsletter">
-                    <h3 class="footer-widget__title">
-                        Newsletter
-                    </h3><!-- /.footer-widget__title -->
-                    <form class="footer-widget__mailchimp">
-                        <input type="email" placeholder="Email address">
-                        <p class="footer-widget__mailchimp__text">
-                            <i class="fa fa-check"></i>
-                            I agree to all your terms and policies
-                        </p><!-- /.footer-widget__mailchimp -->
-                    </form><!-- /.footer-widget__mailchimp -->
-                </div><!-- /.footer-widget -->
-            </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
     </div><!-- /.container -->
 </footer><!-- /.main-footer -->
 <div class="bottom-footer">
     <div class="container">
-        <p class="bottom-footer__text text-center">Copyright &copy; 2022 All Rights Reserved.</p>
+        <p class="bottom-footer__text text-center">Copyright &copy; <?php echo date('Y')?> All Rights Reserved.</p>
         <!-- /.bottom-footer__text -->
     </div><!-- /.container -->
 </div><!-- /.bottom-footer -->

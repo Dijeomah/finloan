@@ -5,10 +5,10 @@
             <!-- /.page-header__bg -->
             <div class="container">
                 <ul class="thm-breadcrumb list-unstyled">
-                    <li><a href="{{route('home')}}">Home</a></li>
-                    <li><span>Services</span></li>
+                    <li><a href="{{route('home')}}">@lang('navigation.home')</a></li>
+                    <li><span>@lang('navigation.services')</span></li>
                 </ul><!-- /.thm-breadcrumb list-unstyled -->
-                <h2>Our Services</h2>
+                <h2>@lang('services.services_header')</h2>
             </div><!-- /.container -->
         </section><!-- /.page-header -->
 
@@ -18,8 +18,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-1.png" alt="Auto Car Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-1.png')}}" alt="@lang('services.service_types.auto_car_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -27,11 +27,10 @@
                                         <i class="icon-car"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Auto Car Loan</a>
+                                        <a href="#">@lang('services.service_types.auto_car_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.auto_car_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->
@@ -41,8 +40,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-2.png" alt="Wedding Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-2.png')}}" alt="@lang('services.service_types.wedding_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -50,11 +49,10 @@
                                         <i class="icon-diamond"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Wedding Loan</a>
+                                        <a href="#">@lang('services.service_types.wedding_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.wedding_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->
@@ -64,8 +62,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-3.png" alt="Property Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-3.png')}}" alt="@lang('services.service_types.property_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -73,11 +71,10 @@
                                         <i class="icon-house"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Property Loan</a>
+                                        <a href="#">@lang('services.service_types.property_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.property_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->
@@ -87,8 +84,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-4.png" alt="Business Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-4.png')}}" alt="@lang('services.service_types.business_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -96,11 +93,10 @@
                                         <i class="icon-briefcase"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Business Loan</a>
+                                        <a href="#">@lang('services.service_types.business_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.business_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->
@@ -110,8 +106,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-5.png" alt="Education Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-5.png')}}" alt="@lang('services.service_types.education_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -119,11 +115,10 @@
                                         <i class="icon-book"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Education Loan</a>
+                                        <a href="#">@lang('services.service_types.education_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.education_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->
@@ -133,8 +128,8 @@
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="service-card">
                             <div class="service-card__image">
-                                <img src="assets/images/services/services-1-6.png" alt="Personal Loan">
-                                <a href="services-details.html"></a>
+                                <img src="{{asset('assets/images/services/services-1-6.png')}}" alt="@lang('services.service_types.personal_loan')">
+                                <a href="#"></a>
                             </div><!-- /.service-card__image -->
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
@@ -142,11 +137,10 @@
                                         <i class="icon-user"></i>
                                     </div><!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
-                                        <a href="services-details.html">Personal Loan</a>
+                                        <a href="#">@lang('services.service_types.personal_loan')</a>
                                     </h3><!-- /.service-card__title -->
-                                    <p class="service-card__text">Car Loan provide low interest many variations of passages of lorem ipsum have
-                                        some.</p><!-- /.service-card__text -->
-                                    <a href="services-details.html" class="service-card__link">
+                                    <p class="service-card__text">@lang('services.service_types.personal_loan_text')</p><!-- /.service-card__text -->
+                                    <a href="#" class="service-card__link">
                                         <i class="fa fa-angle-right"></i>
                                     </a><!-- /.service-card__link -->
                                 </div><!-- /.service-card__content__inner -->

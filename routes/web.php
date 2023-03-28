@@ -2,6 +2,7 @@
 
     use App\Http\Controllers\AdminViews\AdminController;
     use App\Http\Controllers\Auth\AuthController;
+    use App\Http\Controllers\LocalizationController;
     use App\Http\Controllers\Views\HomeController;
     use Illuminate\Support\Facades\Route;
 
@@ -28,6 +29,8 @@ Route::get('/contact', [HomeController::class,'contact'])->name('contact');
 Route::get('/apply-now', [HomeController::class,'apply_now'])->name('apply-now');
 Route::post('/apply', [HomeController::class,'loanData']);
 Route::post('/loan', [HomeController::class,'loanData']);
+
+Route::get('locale/{lang}', [LocalizationController::class, 'setLang'])->name('locale');
 
 
 Route::get('/login', [AuthController::class, 'index'])->name('login');

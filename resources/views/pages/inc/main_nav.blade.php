@@ -17,16 +17,16 @@
         <div class="main-menu__nav">
             <ul class="main-menu__list">
                 <li class="{{(request()->is('/')) ? 'current' : '' }}">
-                    <a href="{{route('home')}}">Home</a>
+                    <a href="{{route('home')}}">@lang('navigation.home')</a>
                 </li>
                 <li class="{{(request()->is('about')) ? 'current' : '' }}">
-                    <a href="{{route('about')}}">About</a>
+                    <a href="{{route('about')}}">@lang('navigation.about')</a>
                 </li>
                 <li class="{{(request()->is('services')) ? 'current' : '' }}">
-                    <a href="{{route('services')}}">Services</a>
+                    <a href="{{route('services')}}">@lang('navigation.services')</a>
                 </li>
                 <li class="{{(request()->is('contact')) ? 'current' : '' }}">
-                    <a href="{{route('contact')}}">Contact</a>
+                    <a href="{{route('contact')}}">@lang('navigation.contact')</a>
                 </li>
             </ul>
         </div><!-- /.main-menu__nav -->
@@ -34,7 +34,7 @@
             <a href="#" class="main-menu__toggler mobile-nav__toggler">
                 <i class="fa fa-bars"></i>
             </a>
-            <a href="{{route('apply-now')}}" class="thm-btn main-menu__btn">Request Loan</a><!-- /.thm-btn -->
+            <a href="{{route('apply-now')}}" class="thm-btn main-menu__btn">@lang('home.request_for_loan')</a><!-- /.thm-btn -->
             <a href="tel:926668880000" class="main-menu__contact">
                         <span class="main-menu__contact__icon">
                             <i class="icon-phone"></i>
