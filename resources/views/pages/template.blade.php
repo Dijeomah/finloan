@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{asset('assets/images/favicons/favicon-32x32.png')}}"/>
     <link rel="icon" type="image/png" sizes="16x16" href="{{asset('assets/images/favicons/favicon-16x16.png')}}"/>
     <link rel="manifest" href="{{asset('assets/images/favicons/site.webmanifest')}}"/>
-    <meta name="description" content="Finlon - Loan & Credit Repair HTML Template"/>
+    <meta name="description" content="Finlon - Loan & Credit "/>
 
     <!-- fonts -->
 
@@ -55,7 +55,7 @@
         <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
     </div><!-- /.stricky-header -->
 
-{{--    {{$slot}}--}}
+    {{--    {{$slot}}--}}
 
     @yield('view')
 
@@ -79,6 +79,13 @@
         <!-- /.mobile-nav__container -->
 
         <ul class="mobile-nav__contact list-unstyled">
+            <li>
+                <a href="locale/en">English</a>
+            </li>
+            <li>
+
+                <a href="locale/de">Dutch</a>
+            </li>
             <li>
                 <i class="icon-email"></i>
                 <a href="mailto:needhelp@packageName__.com">needhelp@finlon.com</a>
