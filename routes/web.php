@@ -41,3 +41,7 @@ Route::prefix('admin')->middleware('auth')->group(function(){
     Route::get('/dashboard', [AdminController::class, 'dashboard'])->name('dashboard');
     Route::get('/loans', [AdminController::class, 'loan_list'])->name('loan_list');
 });
+
+Route::any('spotify', function(){
+	return 'finloan spotify';
+});
